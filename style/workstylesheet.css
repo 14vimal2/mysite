@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    margin: 0px;
+    font-size: 100%;
+}
+
+div .navmenutext {
+    text-decoration: none;
+    color: rgb(28, 98, 110);
+    font-size: 2em;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div .navmenutext:hover {
+   border-bottom: 5px solid rgb(28, 98, 110); 
+}
+.brandletters {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .navbarmenu {
+    float: right;
+    padding: 8px 0px 4px 0px;
+    background-color:transparent;
+    margin-top: 0px 0px 0px 5px;
+    height: 32px;
+    width: 140px;
+    text-align: center;
+    white-space: nowrap;
+}
+.navbarmenu:hover {
+    background-color: rgba(240, 255, 255, 0.050);
+    border: hotpink;
+}
+nav {
+    background-color: rgba(240, 255, 255, 0.050);
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+  #navbar {
+    background-color: rgba(109, 223, 223, 0.05);
+    height: 40px;
+    width: 100%;
+}
+
+.navitems {
+    float: right;
+    margin-left: 5px;
+}
+.topnavmenu {
+    width: 150px;
+    padding: 2px 0px 1px 0px;
+    border-width: 0px 0px 5px 0px;
+    height: 32px;
+    margin-left: 10px;
+}
+.topnavmenu :hover {
+    background-color: rgba(119, 136, 153, 0.349);
+}
+
+div .navmenu :hover{
+    border-bottom: mediumvioletred;
+}
+  .navmenutext {
+    text-decoration: none;
+    color: rgb(28, 98, 110);
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+.navmenu {
+    text-align: center;
+}
+.multicolortext {
+    background-image: linear-gradient(to left, rgba(238, 130, 238, 0.5), rgba(76, 0, 130, 0.5), rgba(0, 0, 255, 0.5), rgba(0, 128, 0, 0.5), rgba(255, 255, 0, 0.5), rgba(255, 166, 0, 0.5), rgba(255, 0, 0, 0.5));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+.brandname {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+  }
+  h1 { font-size: 6em;
+    color: rgba(255, 255, 255, 0.5);
+ }
