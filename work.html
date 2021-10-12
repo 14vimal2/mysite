@@ -5,89 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/mysite/style/mainstylesheet.css">
+    <link rel="stylesheet" href="style/mainstylesheet.css">
     <title>Work-14Vimal2</title>
 </head>
 
 <body class="example">
-    <nav>
-        <a href="/mysite" style="text-decoration: none;">
-            <span>
-                <span class="brandletters" style="color: rgba(255, 166, 0, 0.5);">14</span><span class="brandletters"
-                    style=" color: rgba(255, 99, 71, 0.5);">Vimal</span><span class="brandletters"
+    <ul class="topnav">
+        <li class="left">
+            <a href="/">
+                <span style="color: rgba(255, 166, 0, 0.5);">14</span><span
+                    style=" color: rgba(255, 99, 71, 0.5);">Vimal</span><span
                     style=" color: rgba(255, 0, 0, 0.5);">2</span>
-            </span>
-        </a>
-        <a href="/mysite/contact.html">
-            <div class="navbarmenu">
-                <p class="navmenutext">Contact</p>
-            </div>
-        </a>
-        <!--a href="/circle.html">
-            <div class="navbarmenu">
-                <p class="navmenutext">Circle</p>
-            </div>
-        </a-->
-        <a href="/mysite/aboutme.html">
-            <div class="navbarmenu">
-                <p class="navmenutext">About me</p>
-            </div>
-        </a>
+            </a>
+        </li>
+        <li><a class="contactpage" href="contact.html">Contact</a></li>
+        <li><a class="aboutpage" href="aboutme.html">About me</a></li>
+        <li><a class="active workpage" href="work.html">Works</a></li>
+    </ul>
 
-        <div class="navbarmenu">
-            <p class="navmenutext" style="border-bottom: 5px solid rgb(28, 98, 110); ">Works</p>
-        </div>
 
-    </nav>
-
-    <div>
-        <br><br><br>
-        <h1 class="workheading">
-            See my works here.
-        </h1>
-    </div>
-
-    <hr>
-    <div style="width: 80%; height: 210px; margin: auto;">
-        <img style="float: left;" class="workimage" src="/mysite/Media/works/personalwebsite.PNG" alt="">
-        <div style="display: inline; float: left; width: 50%; text-align: right;">
-            <h1 style="color: rgba(255, 105, 180, 0.7);">
-                My personal website
+    <div class="container">
+        <div class="text-center">
+            <h1 class=" text-style">
+                See my works here.
             </h1>
-            <p style="color: rgba(205, 92, 92, 0.7);">
-                This is my personal website from scratch using HTML,CSS and Javascript.
+        </div>
+        <hr class="hrworks">
+        <h1 class="heading  text-center">My personal website</h1>
+        <hr class="headerimg">
+        <div class="workcontainer">
+            <img class="workimg" src="Media/works/personalwebsite.PNG" alt="">
+            <p class="text-style odd">This is my personal website from scratch using HTML,CSS and Javascript.</p>
+        </div>
+        <hr class="hrworks">
+        <h1 class="heading text-center">Library Management sheet</h1>
+        <hr class="headerimg">
+        <div class="workcontainer">
+            <a
+                href="https://docs.google.com/spreadsheets/d/1Rk_-B8FNKcPU4fhK46XaqwCmvwmSSmbPZAcx7CdEIo8/edit?usp=sharing"><img
+                    class="workimg imgodd" src="Media/works/bookbank.PNG" alt=""></a>
+            <p class="text-style">In this template any school or library can keep records and track them efficiently.
             </p>
         </div>
-    </div>
+        <hr class="hrworks">
+         <h1 class="heading workheading text-center">A simple text editor</h1>
+        <hr class="headerimg">
 
-    <hr>
-    <div style="width: 80%; height: 210px; margin: auto;">
-        <a href="https://docs.google.com/spreadsheets/d/1Rk_-B8FNKcPU4fhK46XaqwCmvwmSSmbPZAcx7CdEIo8/edit?usp=sharing">
-            <img style="float: right;" class="workimage" src="/mysite/Media/works/bookbank.PNG" alt="">
-        </a>
-        <div style="width: 50%; display: inline; float: right;">
-            <h1 style="color: rgba(255, 105, 180, 0.7);">
-                Library Management sheet
-            </h1>
-            <p style="color: rgba(205, 92, 92, 0.7);">
-                In this template any school or library can keep records and track them efficiently.
-            </p>
+        
+        <div class="workcontainer">
+            <a href="https://github.com/14vimal2/Textuti"><img class="workimg" src="Media/works/textuti.PNG" alt=""></a>
+            <p class="text-style odd">This was just for learning project in the course of Django on Youtube by Code with
+                Harry.</p>
         </div>
+        <hr class="hrworks">
     </div>
-    <hr>
-    <div style="width: 80%; height: 210px; margin: auto;">
-        <img style="float: left;" class="workimage" src="/mysite/Media/works/textuti.PNG" alt="">
-        <div style="display: inline; float: left; width: 50%; text-align: right;">
-            <h1 style="color: rgba(255, 105, 180, 0.7);">
-                A simple text editor
-            </h1>
-            <p style="color: rgba(205, 92, 92, 0.7);">
-                This was just for learning project in the course of Django on Youtube by Code with Harry. 
-            </p>
-        </div>
-    </div>
-
-
 
 </body>
 
