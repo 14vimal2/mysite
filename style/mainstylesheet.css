@@ -3,7 +3,16 @@ body {
     margin: 0px;
     font-size: 100%;
 }
+.logonum1 {
+    color: rgba(255, 166, 0, 0.5);
+}
 
+.logoname {
+    color: rgba(255, 99, 71, 0.5);
+}
+.logonum2 {
+    color: rgba(255, 0, 0, 0.5);
+}
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -90,7 +99,7 @@ ul.topnav {
 }
 .heading {
     font-size: 2em;
-    font-family: Georgia, serif;
+    /* font-family: Georgia, serif; */
     color: rgba(60, 214, 163, 0.384);
     /* width: 70%; */
     /* display: inline; */
